@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <main id="main">
+        <h1> <img src="img/checklist.png" alt="todologo" class="logo"> Todo List</h1>
+
+        <div id="addTask">
+            <img src="img/post-it.png" alt="logo" class="logo">
+            <input type="text" id="taskName" placeholder="Write Todo............." require>
+            <button id="btn" onclick="todo()" type="submit">Add</button>
+        </div>
+
+        <div id="taskContainer">
+            <ul id="tasks">
+                <!-- <li class="item"> <span class="line-through task-padd">text inside the list</span>
+                    <div class="buttons">
+                        <span class="didit">did it</span>
+                        <span class="close">x</span>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+ 
+    </main>
+
+    <!------------------------ Stuff for animation ------------------------------------->
+
+    <div id="scene">
+        <img class="img-fluid hero-bg-1 up-down-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/feature-bg-2.png" alt="">
+        <img class="img-fluid hero-bg-2 left-right-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/seo-ball-1.png" alt="">
+        <img class="img-fluid hero-bg-3 left-right-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/seo-half-cycle.png" alt="">
+        <img class="img-fluid hero-bg-4 up-down-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/green-dot.png" alt="">
+        <img class="img-fluid hero-bg-5 left-right-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/blue-half-cycle.png" alt="">
+        <img class="img-fluid hero-bg-6 up-down-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/seo-ball-1.png" alt="">
+        <img class="img-fluid hero-bg-7 left-right-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/yellow-triangle.png" alt="">
+        <img class="img-fluid hero-bg-8 up-down-animation"
+            src="ihttps://themewagon.github.io/dtox/images/background-shape/service-half-cycle.png" alt="">
+        <img class="img-fluid hero-bg-9 up-down-animation"
+            src="https://themewagon.github.io/dtox/images/background-shape/team-bg-triangle.png" alt="">
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

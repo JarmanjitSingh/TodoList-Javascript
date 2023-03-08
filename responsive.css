@@ -1,0 +1,67 @@
+@media screen and (max-width: 1182px) {
+    .hero-bg-2 {
+        left: 5%;
+    }
+
+    .hero-bg-6 {
+        right: 7%;
+    }
+
+    .hero-bg-5 {
+        top: 119px;
+    }
+
+    .hero-bg-4 {
+        right: 9%;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    .buttons{
+        width: 25%;
+    }
+    .hero-bg-1,
+    .hero-bg-2,
+    .hero-bg-3,
+    .hero-bg-4,
+    .hero-bg-5,
+    .hero-bg-6,
+    .hero-bg-7,
+    .hero-bg-8,
+    .hero-bg-9 {
+        display: none;
+    }
+
+    h1,
+    #addTask,
+    #taskContainer {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    
+    .item{
+        padding: 7px;
+        justify-content: center;
+        gap: 20px;
+    }
+    .buttons{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .task-padd{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 325px){
+    .taskName{
+        width: 70%;
+    }
+    #addTask{
+        gap: 10px;
+    }
+}
